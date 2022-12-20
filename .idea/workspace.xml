@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e02c9f-6007-4baa-9429-8eef611583e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Note/Note01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Note/Note02" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day01_C1_FirstMavenClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day01_C2_FirstJUnitClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day02_C3_LocatorsGiris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day02_C4_Xpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C5_GoogleAramaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C6_CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C7_JavaFaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day04_C10_HesapOlusturma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day04_C8_RadioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day04_C9_DropDown.java" afterDir="false" />
-    </list>
+    <list default="true" id="c6e02c9f-6007-4baa-9429-8eef611583e2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
