@@ -1,0 +1,19 @@
+Juniproject22, framework'tur.
+*** .idea => Intellij'e aittir. Projenin spesifik bilgilerini icerir. Kesinlikle icerigini degistirmiyoruz
+*** src ==> source folder(klasoru)'dur. Src class ve method olusturmak icin kullaniriz
+bu Class ve methodlar gerek developer framework gerekse testing framework icin olusturulabilir.
+*main => cogunlukla developerlar kodlari gelistirmek icin kullanir.
+*test => cogunlukla testerlar test scriptlerini yazmak icin kullanir
+
+***pom.xml ==> Maven projedeki en onemli projedir.
+-- pom.xml'e dependencies plugins ve benzer configurations eklenir.
+
+*** external libraries=> import veya dowload ettigimiz libraries/jar files/plugins/dependencies
+
+@Test : test case olusturmak "@Test" notation kullanilir. Test case olusturmak ve kosturmak (Run) icin kullnilir
+@Before : her @Test anotatondan once calisir. Onkosullari calistirmak icin kullanilir.
+@After : her @TEST ANOTATIONDAN SONRA CALISIR. tEKRAR EDEN EN SON KOSULLARI CALISTIRMAK ICIN KULLANILIR.
+
+*@Test, @Before @BeforeClass, @After, @AfterClass, @Ignor
+
+id, name, className, tagName, linkText, partialLinkTest, xPath, csslocator
