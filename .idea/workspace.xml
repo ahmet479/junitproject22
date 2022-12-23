@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e02c9f-6007-4baa-9429-8eef611583e2" name="Changes" comment="" />
+    <list default="true" id="c6e02c9f-6007-4baa-9429-8eef611583e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Note/Note3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day06_C12_IFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day06_C13_IFrameOrnek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day06_C13_WindowHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day06_C14_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day06_C15_Actions2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day07_C16_Actions3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day07_C17_Actions4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day07_C18_TestBaseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day07_C19_synchronization1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day07_C19_synchronization2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,8 +50,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Day05_C11_Alert.sendKeyAlert">
-    <configuration name="Day04_C10_HesapOlusturma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Day07_C17_Actions4">
+    <configuration name="Day06_C14_Actions.windowHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitproject22" />
       <extension name="coverage">
         <pattern>
@@ -46,13 +60,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day04_C10_HesapOlusturma" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day06_C14_Actions" />
+      <option name="METHOD_NAME" value="windowHandle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day06_C15_Actions2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitproject22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arcane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arcane" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day06_C15_Actions2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05_C11_Alert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day06_C15_Actions2.hoverOver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitproject22" />
       <extension name="coverage">
         <pattern>
@@ -61,13 +91,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day05_C11_Alert" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day06_C15_Actions2" />
+      <option name="METHOD_NAME" value="hoverOver" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day07_C16_Actions3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitproject22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arcane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arcane" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day07_C16_Actions3" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05_C11_Alert.acceptAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day07_C17_Actions4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitproject22" />
       <extension name="coverage">
         <pattern>
@@ -76,52 +122,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day05_C11_Alert" />
-      <option name="METHOD_NAME" value="acceptAlert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day05_C11_Alert.dismissAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitproject22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.arcane.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day05_C11_Alert" />
-      <option name="METHOD_NAME" value="dismissAlert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day05_C11_Alert.sendKeyAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitproject22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.arcane.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day05_C11_Alert" />
-      <option name="METHOD_NAME" value="sendKeyAlert" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day07_C17_Actions4" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day05_C11_Alert.sendKeyAlert" />
-        <item itemvalue="JUnit.Day05_C11_Alert" />
-        <item itemvalue="JUnit.Day05_C11_Alert.dismissAlert" />
-        <item itemvalue="JUnit.Day05_C11_Alert.acceptAlert" />
-        <item itemvalue="JUnit.Day04_C10_HesapOlusturma" />
+        <item itemvalue="JUnit.Day07_C17_Actions4" />
+        <item itemvalue="JUnit.Day07_C16_Actions3" />
+        <item itemvalue="JUnit.Day06_C15_Actions2.hoverOver" />
+        <item itemvalue="JUnit.Day06_C15_Actions2" />
+        <item itemvalue="JUnit.Day06_C14_Actions.windowHandle" />
       </list>
     </recent_temporary>
   </component>

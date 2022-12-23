@@ -1,0 +1,21 @@
+checkbox
+*** isSelected == bir checkbox secili olup olmadigina bakar. Secili ise true degilse false
+-click () check/ uncheck edebiliriz
+***Radio Button
+isSelected ==> bir radio button'in secili olup olmadigina bakar. Secili ise true degilse false
+-click() check/uncheck edebiliriz
+DropDown
+--Locator'i lullanarak dropdown elementini buluyoruz
+WebElement dropDownElement = findElement(By.id(id'nin value));
+
+   selct objesi olustururlur.
+--Select select = new Select(dropDownElement);
+
+--selectByIndex(), selectByIndex(), selctyvisibleText birini kullanarak locate ederiz.
+
+*** getOptions() ==> tum elementleri bir List<WebElement>
+
+  List<WebElement> list = select.getOptions();
+
+*** getFirstSelectedOptions() = ilk secili olan secenegi yazdirir.
+  WebElement ilkSecim = select.getFirstSelectedOptions();
