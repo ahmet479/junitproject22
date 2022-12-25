@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Day07_C19_synchronization2 extends TestBase {
     /*
@@ -19,25 +20,36 @@ public class Day07_C19_synchronization2 extends TestBase {
 
     NOTE: .isEnabled(); bir elementin enabled olup olmadigini check eder
      */
+
     @Test
-    public void isEnabled() {
-//        1- https://the-internet.herokuapp.com/dynamic_controls adresine git
+    public void synchronization2() throws InterruptedException {
+//        https://the-internet.herokuapp.com/dynamic_controls adresine git
         driver.get("https://the-internet.herokuapp.com/dynamic_controls");
-//        2- enable Button'una tikla
+
+//        enable Button'una tikla
         driver.findElement(By.xpath("//button[.='Enable']")).click();
-//        3- Mesajin “It's enabled!” oldugunu verify et
-        WebElement goneElement = driver.findElement(By.id("message"));
-        Assert.assertTrue(goneElement.getText().equals("It's enabled!"));
-//     4-   Textbox'in enabled oldugunu verify et (textbox'ta yazi yazilabilir)
+        Thread.sleep(2000);
+//        Mesajin “It's enabled!” oldugunu verify et
+        WebElement enabledElement = driver.findElement(By.id("message"));
+        Assert.assertTrue(enabledElement.getText().equals("It's enabled!"));
+        Thread.sleep(2000);
+        WebDriverWait wait = new WebDriverWait(driver,10);
+
+//        Textbox'in enabled oldugunu verify et (textbox'ta yazi yazilabilir)
         driver.findElement(By.xpath("//input[@type='text']")).click();
-//    5-    Disable button'una tikla
+        Thread.sleep(2000);
+//        Disable button'una tikla
         driver.findElement(By.xpath("//button[.='Disable']")).click();
-//     6-   Mesajin “It's disabled!” oldugunu verify et
+
+        Thread.sleep(2000);
+//        Mesajin “It's disabled!” oldugunu verify et
         WebElement backElement = driver.findElement(By.id("message"));
         Assert.assertTrue(backElement.getText().equals("It's disabled!"));
-//     7-   Textbox'in disabled oldugunu verify et (textbox'ta yazi yazilamaz)
-        WebElement beklenenElement = driver.findElement(By.id("message"));
-        Assert.assertTrue(beklenenElement.getText().equals("It's disabled!"));
+        Thread.sleep(2000);
+//        Textbox'in disabled oldugunu verify et (textbox'ta yazi yazilamaz)
+        driver.findElement(By.xpath("//input[@type='text']")).click();
+        Thread.sleep(4000);
     }
+
 }
 
